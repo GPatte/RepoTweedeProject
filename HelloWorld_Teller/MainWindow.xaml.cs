@@ -24,5 +24,10 @@ namespace HelloWorld_Teller
         {
             InitializeComponent();
         }
+
+        private void btn_test_Click(object sender, RoutedEventArgs e)
+        {
+            lb_test.Content = "HelloWorld";
+        }
     }
 }
