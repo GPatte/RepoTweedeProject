@@ -28,12 +28,7 @@ namespace HelloWorld_Teller
 
         private void btn_test_Click(object sender, RoutedEventArgs e)
         {
-            lb_test.Content = "HelloWorld2v2";
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            lblOutput.Content = ++_teller;
+            lb_test.Content = "HelloWorld";
         }
     }
 }
