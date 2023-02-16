@@ -20,9 +20,15 @@ namespace HelloWorld_Teller
     /// </summary>
     public partial class MainWindow : Window
     {
+        private int _teller;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            lblOutput.Content = ++_teller;
         }
     }
 }
