@@ -30,5 +30,10 @@ namespace HelloWorld_Teller
         {
             lb_test.Content = "HelloWorld";
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            lblOutput.Content = ++_teller;
+        }
     }
 }
